@@ -1,0 +1,16 @@
+.navbar-default .navbar-nav > li > a{
+    font-size:18px;
+    color:black;
+    	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+    background-color: steelblue;
+    color:white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color:red;
+}

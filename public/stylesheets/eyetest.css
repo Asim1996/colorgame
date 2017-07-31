@@ -1,0 +1,159 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  min-height: 100%;
+	background:#232323;
+	color:white;
+	margin: 0;
+	 
+font-family: "Montserrat","Avenir";
+}
+ul{
+    list-style-type: none
+}
+#footer{
+	margin-top: 20px;
+	background-color: white;
+	height:40px;
+}
+.container{
+	max-width:800px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.foot{
+	color:red;
+	 font-family: 'Pacifico', cursive;
+	 font-size: 18px;
+	padding-top: 5px;
+	
+}
+
+.square{
+	width:12%;
+	float:left;
+	margin:0.7%;
+	padding-bottom:12%; 
+	background-color:purple;
+border-radius: 5%;
+transition: background 0.2s;
+-webkit-transition: background 0.2s;
+-moz-transition: background 0.2s; 
+}
+h1{
+	text-align:center;
+	background: #085ea6;
+	margin:0;
+	letter-spacing: 2px;
+}
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+#stripe a{
+ 
+  color:red;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 4px;
+}
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #085ea6;
+	letter-spacing: 2px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: #085ea6;
+}
+h3
+{
+display: inline;
+color:#085ea6;
+font-weight: 700;
+letter-spacing: 1px;
+margin-left: 20px;
+}
+.one{
+		position:relative;
+	display: none;
+	margin:50px auto;
+	width:50%;
+	height:250px;
+	background-color:  #abebc6;
+	}
+.two{
+	position:relative;
+	display: none;
+	margin:50px auto;
+	width:50%;
+	
+	height:150px;
+	background-color:  #abebc6;
+	}
+.three{
+	position:relative;
+	display: none;
+	margin:50px auto;
+	width:50%;
+	height:150px;
+	background-color:  #abebc6;
+	}
+.four{
+	position:relative;
+	display: none;
+	margin:50px auto;
+	width:50%;
+	height:150px;
+	background-color:  #abebc6;
+	}
+h2{
+	
+	text-align:center;
+	padding-top: 20px;
+	overflow:auto;
+}
+.firstcase
+{
+	position:absolute;
+	left:15%;
+	top:30%;
+	overflow:auto;
+}
+.basic{
+	display:block;
+}
+
+p{
+    padding-top: 15px;
+    padding-left: 15px;
+    display: inline-block;
+}
+#merge{
+	margin-top: -20px;
+}
+@media only screen and (max-width: 734px) {
+    
+    h3{font-size:50%;}
+    i{font-size:60%;}
+    h5 {font-size:60%;}
+    button {font-size: 50%;}
+    a{font-size: 60%;}
+    p{font-size: 60%;}
+    #message {font-size: 50%;}
+}

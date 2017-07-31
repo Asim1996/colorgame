@@ -1,0 +1,35 @@
+<% include partials/header %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	 <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet"  href="/stylesheets/colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+</head>
+<body>
+<div id="merge">
+<h1><span id="newline">RGB</span> color Game </h1>	
+</div>
+<div id="stripe">
+ <a href="#" title="RULE" data-toggle="popover" data-trigger="focus" data-content="Find the tile with the specified RGB color"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+Rule</a>
+<button id="reset">New Game</button>
+<span id="message"></span>
+<button id="easy">Easy</button>
+<button id="hard" class="selected">Hard</button>
+</div>
+
+<div class="container">
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+</div>
+<script type="text/javascript" src="/scriptfile/colorGame.js"></script>
+<%include partials/footer%>
