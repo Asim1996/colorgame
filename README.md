@@ -1,11 +1,11 @@
 # Colorgames
-##RGB Game
+## RGB Game
 
 Game designed to help in improving color skills
 
-##Eye Test
+## Eye Test
 
 Check the senstivity of your eye
 
-#DEPLOYING
+# DEPLOYING
 The game is deoloyed [here](https://fierce-hollows-29233.herokuapp.com/rgbgame) at Heroku
