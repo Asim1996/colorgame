@@ -73,7 +73,7 @@ return arr;
 }
 
 function gameLost() {
-  if(point<=3)
+  if(point<=10)
   {
   	one.classList.add("basic");
   	reset.textContent="PLAY AGAIN"
@@ -81,13 +81,13 @@ function gameLost() {
   
       
   }
-  else if(point>3 && point<=6)
+  else if(point>10 && point<=20)
   {
   	two.classList.add("basic");
  	reset.textContent="PLAY AGAIN"
  black();
  	}
- 	else if(point>6&&point<=9)
+ 	else if(point>20&&point<=30)
  	{
  		three.classList.add("basic");
  		reset.textContent="PLAY AGAIN"

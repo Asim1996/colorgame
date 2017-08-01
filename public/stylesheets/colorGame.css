@@ -7,31 +7,37 @@ body{
    min-height: 100%;
 	background:#232323;
 	color:white;
-	margin: 0;
+	
+	 margin-bottom: 60px;
 	font-family: "Montserrat","Avenir";
 }
-ul{
-    list-style-type: none
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  height: 60px;
+  background-color: white;
 }
-#footer{
-	margin-top: 20px;
-	background-color: white;
-	height:40px;
+
+.container .text-muted {
+  margin: 20px 0;
+}
+.contain p{
+	color:red;
+	 font-family: 'Pacifico', cursive;
+	 font-size: 18px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.contain a{
+	color: steelblue;
 }
 .container{
 	max-width:600px;
 	margin:0px auto;
 }
-.foot{
-	color:red;
-	 font-family: 'Pacifico', cursive;
-	 font-size: 18px;
-	padding-top: 5px;
-	
-}
-.foot a {
-	color:steelblue;
-}
+
 .square{
 	width:30%;
 	float:left;
@@ -109,7 +115,8 @@ button:hover {
     i{font-size:60%;}
     h5 {font-size:60%;}
     button {font-size: 50%;}
-    a{font-size: 60%;}
+    
+    .size{font-size:60%;}
     p{font-size: 60%;}
     #message {font-size: 50%;}
 }
