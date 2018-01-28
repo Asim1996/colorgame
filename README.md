@@ -8,4 +8,4 @@ Game designed to help in improving color skills
 Check the senstivity of your eye
 
 # DEPLOYING
-The game is deoloyed [here](https://color-games.herokuapp.com/) at Heroku
+The game is deployed [here](https://color-games.herokuapp.com/) at Heroku
